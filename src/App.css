@@ -1,0 +1,427 @@
+body {
+  box-sizing: border-box;
+  overflow: auto;
+  height: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  z-index: 10000 !important;
+  transition: all 100ms ease-in-out;
+  padding: 0 !important;
+  height: 60px;
+}
+
+.nav-line {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-line a {
+  margin-right: 20px;
+}
+
+.nav-line a:hover {
+  color: #757575 !important;
+}
+
+.product-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  align-items: center;
+  height: 60px;
+}
+
+.product-list li {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.shoppingMenu {
+  text-transform: capitalize;
+}
+
+.shoppingMenu:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  /* text-decoration-color: pink; */
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 48px 0;
+  align-items: center;
+}
+
+.banner-description h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.banner-p {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  /* font-weight: 500; */
+}
+
+.banner-btn {
+  /* width: 100px; */
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.card {
+  padding: 10px;
+  border: none !important;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.item-content {
+  color: #757575;
+}
+
+.row {
+  margin-top: 70px !important;
+}
+
+.detail-right-area {
+  position: relative;
+}
+
+.detail-img-area {
+  text-align: center;
+}
+
+.detail-img-area img {
+  height: 100%;
+}
+
+.detail-title {
+  font-weight: bold;
+}
+
+.detatail-content {
+  font-weight: bold;
+}
+
+/* size */
+.size {
+  margin-top: 100px;
+}
+
+.size-title {
+  font-weight: bold;
+}
+
+.size-btn-area {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 7px;
+}
+
+.size-warning {
+  border: 2px solid tomato;
+  border-radius: 8px;
+}
+
+.size-warning-text {
+  color: tomato;
+  margin-top: 20px;
+}
+
+.size-btn {
+  height: 48px;
+  outline: none;
+  background: #fff;
+  border: 2px solid #c3c3c3;
+  border-radius: 5px;
+}
+
+.size-btn:hover {
+  border: 2px solid black;
+}
+
+.size-btn:active {
+  border: 3px solid black;
+}
+
+.size-choosed {
+  background-color: #c3c3c3;
+}
+
+/* 장바구니 버튼 */
+.cart-btn {
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+}
+
+.cart-btn button {
+  background: #000;
+  width: 100%;
+  color: whitesmoke;
+  min-height: 60px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: none;
+}
+
+.cart-btn:hover button {
+  background: #757575;
+}
+
+.suggest-area {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.react-multi-carousel-list {
+  padding: 0 !important;
+}
+
+/* detail page tab */
+.detailPage-tab-description {
+  padding: 3rem;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+/* navbar visible */
+.show-navbar {
+  opacity: 1 !important;
+  transition: opacity 0.1s;
+}
+
+.hidden-navbar {
+  opacity: 0 !important;
+}
+
+.nav-link {
+  color: #757575 !important;
+}
+
+.active {
+  color: #000 !important;
+}
+
+/* fade start end */
+.fadeStart {
+  opacity: 0;
+}
+
+.fadeEnd {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/* tab CSS */
+.tabOption-title {
+  font-weight: bold;
+}
+
+.tabOption-description {
+  font-weight: bold;
+}
+
+.tabOption-grey-title {
+  color: #351b1b;
+  font-weight: bold;
+}
+
+/* 카트페이지 = 장바구니 페이지 */
+.cart-main-container {
+  margin-top: 100px;
+}
+
+/* men page */
+.men-page-main-div {
+  margin-top: 70px;
+}
+
+/* sub menu */
+.subMenubar {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  height: 250px;
+  top: 60px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-start; 로 높이를 맞춰줌 ^^ */
+  align-items: flex-start;
+  z-index: 10;
+}
+
+.subMenu-area {
+  padding-left: 0;
+  margin-bottom: 0;
+  padding: 30px;
+  display: block;
+}
+
+.subMenu-area li {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.subMenu-area li:hover {
+  color: #000;
+}
+
+.subMenu-area li:nth-child(1) {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.subMenu-area li:nth-child(1):hover {
+  color: #757575;
+}
+
+.subMenu-list {
+  cursor: pointer;
+}
+
+.headline-featured-shoes h3 {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+/*  banner slide  */
+.each-slide {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.each-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trending-now-title {
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.trending-now-area {
+  display: flex;
+}
+
+.trending-relative {
+  position: relative;
+}
+
+.trending-absolute {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.trending-absolute h5 {
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.trending-btn {
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.trending-btn:hover {
+  background-color: #c3c3c3;
+}
+
+/* product-all-menu-container */
+.product-all-menu-container {
+  display: flex;
+  justify-content: space-around;
+  height: 270px;
+  overflow: hidden;
+  margin-bottom: 56px;
+}
+
+.product-all-menu-area {
+  margin-top: 80px;
+}
+
+.product-all-menu-area ul {
+  padding-left: 0;
+  color: #757575;
+}
+
+.product-all-menu-list {
+  cursor: pointer;
+}
+
+.product-all-menu-area ul li {
+  padding: 5px;
+}
+
+.product-all-menu-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 270px;
+  background-color: #000;
+}

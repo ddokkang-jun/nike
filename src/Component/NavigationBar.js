@@ -50,7 +50,7 @@ const NavigationBar = () => {
     window.addEventListener('mouseover', function (event) {
       handleHover(event);
     });
-    
+
     return () => {
       window.removeEventListener('mouseover', function (event) {
         handleHover(event);
@@ -74,7 +74,7 @@ const NavigationBar = () => {
             <div className='product-list-area'>
               <ul className='product-list'>
                 {menuList.map((menu, index) => (
-                  <Link to='/men' key={index}>
+                  <Link to={`/productAll/${menu}`} key={index}>
                     <li className='shoppingMenu' aria-label={`${menu}`} onMouseOver={() => { handleMenu(menu) }}>{menu}</li>
                   </Link>
                 ))}

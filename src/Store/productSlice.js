@@ -11,6 +11,12 @@ const initialState = {
   fadeValue: "",
   selectedSizeValue: 0,
   sizeSelectWarning: true,
+  menShoes: [],
+  menCloth: [],
+  womenShoes: [],
+  womenCloth: [],
+  kidsShoes: [],
+  kidsCloth: [],
 };
 
 export const productSlice = createSlice({
@@ -35,9 +41,27 @@ export const productSlice = createSlice({
     setSizeSelectWarning: (state, action) => {
       state.sizeSelectWarning = action.payload;
     },
+    setMenShoes: (state, action) => {   // 남성 신발 데이터
+      state.menShoes = action.payload;
+    },
+    setMenCloth: (state, action) => {
+      state.menCloth = action.payload;
+    },
+    setWomenShoes: (state, action) => {
+      state.womenShoes = action.payload;
+    },
+    setWomenCloth: (state, action) => {
+      state.womenCloth = action.payload;
+    },
+    setKidsShoes: (state, action) => {
+      state.kidsShoes = action.payload;
+    },
+    setKidsCloth: (state, action) => {
+      state.kidsCloth = action.payload;
+    },
   },
 });
 
-export const { setProducts, setSuggestShoes, setdetailPageTabValue, setFade, setSelectProductSize, setSizeSelectWarning } =
+export const { setProducts, setSuggestShoes, setdetailPageTabValue, setFade, setSelectProductSize, setSizeSelectWarning, setMenShoes,setMenCloth,setWomenShoes,setWomenCloth,setKidsShoes,setKidsCloth } =
   productSlice.actions;
 export default productSlice.reducer;

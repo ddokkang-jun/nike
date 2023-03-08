@@ -1,6 +1,9 @@
 let kidsShoesData = [
   {
     id: 0,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 임팩트 넥스트 네이처",
     content: "비드 키즈 신발",
     price: 119000,
@@ -24,6 +27,9 @@ let kidsShoesData = [
   },
   {
     id: 1,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 포스 1 LE",
     content: "리틀키즈 신발",
     price: 75000,
@@ -47,6 +53,9 @@ let kidsShoesData = [
   },
   {
     id: 2,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 포스 1 LE",
     content: "베이비 신발",
     price: 59000,
@@ -70,6 +79,9 @@ let kidsShoesData = [
   },
   {
     id: 3,
+    gender: "kids",
+    productType: "shoes",
+    type: "농구",
     title: "에어 조던 1 미드 SE",
     content: "주니어 신발",
     price: 139000,
@@ -93,6 +105,9 @@ let kidsShoesData = [
   },
   {
     id: 4,
+    gender: "kids",
+    productType: "shoes",
+    type: "농구",
     title: "에어 조던 1 로우 SE",
     content: "주니어 신발",
     price: 139000,
@@ -116,6 +131,9 @@ let kidsShoesData = [
   },
   {
     id: 5,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 코트 버로우 로우",
     content: "주니어 신발",
     price: 65000,
@@ -139,6 +157,9 @@ let kidsShoesData = [
   },
   {
     id: 6,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 포스 1 LV8 2",
     content: "베이비 신발",
     price: 79000,
@@ -162,6 +183,9 @@ let kidsShoesData = [
   },
   {
     id: 7,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 우드사이드 2 하이 ACG",
     content: "주니어 부츠",
     price: 129000,
@@ -185,6 +209,9 @@ let kidsShoesData = [
   },
   {
     id: 8,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우",
     content: "리틀키즈 신발",
     price: 85000,
@@ -208,6 +235,9 @@ let kidsShoesData = [
   },
   {
     id: 9,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 허라치 런 SE",
     content: "주니어 신발",
     price: 119000,
@@ -231,6 +261,9 @@ let kidsShoesData = [
   },
   {
     id: 10,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우",
     content: "주니어 신발",
     price: 109000,
@@ -254,6 +287,9 @@ let kidsShoesData = [
   },
   {
     id: 11,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 코트 버로우 미드 2",
     content: "주니어 신발",
     price: 85000,
@@ -277,6 +313,9 @@ let kidsShoesData = [
   },
   {
     id: 12,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우 레트로",
     content: "리틀키즈 신발",
     price: 85000,
@@ -300,6 +339,9 @@ let kidsShoesData = [
   },
   {
     id: 13,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 코트 버로우 로우 2 SE",
     content: "베이비 신발",
     price: 45000,
@@ -323,6 +365,9 @@ let kidsShoesData = [
   },
   {
     id: 14,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우 SE",
     content: "주니어 신발",
     price: 119000,
@@ -346,6 +391,9 @@ let kidsShoesData = [
   },
   {
     id: 15,
+    gender: "kids",
+    productType: "shoes",
+    type: "농구",
     title: "에어 조던 1 로우",
     content: "주니어 신발",
     price: 109000,
@@ -369,6 +417,9 @@ let kidsShoesData = [
   },
   {
     id: 16,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 플렉스 러너 2",
     content: "리틀키즈 신발",
     price: 55000,
@@ -392,6 +443,9 @@ let kidsShoesData = [
   },
   {
     id: 17,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1",
     content: "주니어 신발",
     price: 109000,
@@ -415,6 +469,9 @@ let kidsShoesData = [
   },
   {
     id: 18,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "조던 1 미드",
     content: "베이비 신발",
     price: 79000,
@@ -438,6 +495,9 @@ let kidsShoesData = [
   },
   {
     id: 19,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우",
     content: "베이비 신발",
     price: 65000,
@@ -461,6 +521,9 @@ let kidsShoesData = [
   },
   {
     id: 20,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 탄준",
     content: "주니어 신발",
     price: 79000,
@@ -484,6 +547,9 @@ let kidsShoesData = [
   },
   {
     id: 21,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 코트 버로우 로우 2",
     content: "베이비 신발",
     price: 39000,
@@ -505,6 +571,9 @@ let kidsShoesData = [
   },
   {
     id: 22,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우",
     content: "베이비 신발",
     price: 65000,
@@ -528,6 +597,9 @@ let kidsShoesData = [
   },
   {
     id: 23,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 97",
     content: "주니어 신발",
     price: 189000,
@@ -551,6 +623,9 @@ let kidsShoesData = [
   },
   {
     id: 24,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우",
     content: "주니어 신발",
     price: 119000,
@@ -574,6 +649,9 @@ let kidsShoesData = [
   },
   {
     id: 25,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우 SE",
     content: "베이비 신발",
     price: 65000,
@@ -597,6 +675,9 @@ let kidsShoesData = [
   },
   {
     id: 26,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 코트 레거시",
     content: "리틀키즈 신발",
     price: 49000,
@@ -620,6 +701,9 @@ let kidsShoesData = [
   },
   {
     id: 27,
+    gender: "kids",
+    productType: "shoes",
+    type: "농구",
     title: "스카이 조던 1",
     content: "리틀키즈 신발",
     price: 89000,
@@ -643,6 +727,9 @@ let kidsShoesData = [
   },
   {
     id: 28,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 포스 1",
     content: "베이비 신발",
     price: 59000,
@@ -666,6 +753,9 @@ let kidsShoesData = [
   },
   {
     id: 29,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우",
     content: "베이비 신발",
     price: 79000,
@@ -689,6 +779,9 @@ let kidsShoesData = [
   },
   {
     id: 30,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 하이",
     content: "주니어 신발",
     price: 129000,
@@ -712,6 +805,9 @@ let kidsShoesData = [
   },
   {
     id: 31,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 플렉스 러너 2 릴",
     content: "리틀키즈 신발",
     price: 59000,
@@ -735,6 +831,9 @@ let kidsShoesData = [
   },
   {
     id: 32,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 포스 1 로우 SE",
     content: "베이비 신발",
     price: 69000,
@@ -758,6 +857,9 @@ let kidsShoesData = [
   },
   {
     id: 33,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 플렉스 러너 2",
     content: "베이비 신발",
     price: 49000,
@@ -781,6 +883,9 @@ let kidsShoesData = [
   },
   {
     id: 34,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 플렉스 러너 2 릴",
     content: "베이비 신발",
     price: 55000,
@@ -804,6 +909,9 @@ let kidsShoesData = [
   },
   {
     id: 35,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우 레트로",
     content: "베이비 신발",
     price: 65000,
@@ -827,6 +935,9 @@ let kidsShoesData = [
   },
   {
     id: 36,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1",
     content: "주니어 신발",
     price: 129000,
@@ -850,6 +961,9 @@ let kidsShoesData = [
   },
   {
     id: 37,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 플렉스 플러스",
     content: "베이비 신발",
     price: 49000,
@@ -873,6 +987,9 @@ let kidsShoesData = [
   },
   {
     id: 38,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 옴니 멀티 코트",
     content: "리틀키즈 신발",
     price: 65000,
@@ -896,6 +1013,9 @@ let kidsShoesData = [
   },
   {
     id: 39,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 SC",
     content: "주니어 신발",
     price: 79000,
@@ -919,6 +1039,9 @@ let kidsShoesData = [
   },
   {
     id: 40,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "에어 조던 1 미드 SE",
     content: "주니어 신발",
     price: 139000,
@@ -942,6 +1065,9 @@ let kidsShoesData = [
   },
   {
     id: 41,
+    gender: "kids",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 97",
     content: "주니어 신발",
     price: 189000,
@@ -961,7 +1087,7 @@ let kidsShoesData = [
       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/h9ttssvainj6xh1i6zss/%EC%97%90%EC%96%B4%EB%A7%A5%EC%8A%A4-97-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%8B%A0%EB%B0%9C-j1b47Rt6.png",
       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/wy96fio6eedxb106pyfh/%EC%97%90%EC%96%B4%EB%A7%A5%EC%8A%A4-97-%EC%A3%BC%EB%8B%88%EC%96%B4-%EC%8B%A0%EB%B0%9C-j1b47Rt6.png",
     ],
-    description: "",
+    description: "나이키 에어맥스 97은 언제나 사랑받는 아이템 중 하나입니다. 왜일까요? 1997년 처음 출시된 이 아이콘은 마치 버블 위를 걷는 것 같은 에어를 전체적으로 적용한 최초의 나이키 신발입니다. 물결에서 영감을 받은 시그니처 디자인인 물결 라인이 또한 돋보입니다. 본래 러닝을 위해 제작된 나이키 97은 일주일 내내 언제 입어도 돋보이는 신발입니다.",
   },
 ];
 

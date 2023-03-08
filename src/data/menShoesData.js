@@ -2,6 +2,7 @@ let menShoesData = [
   {
     id: 0,
     gender: "men",
+    productType: "shoes",
     type: "general",
     title: "나이키 에어 포스 1 '07",
     content: "남성 신발",
@@ -24,6 +25,9 @@ let menShoesData = [
   },
   {
     id: 1,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "에어 조던 1 로우 SE",
     content: "남성 신발",
     price: 139000,
@@ -45,6 +49,9 @@ let menShoesData = [
   },
   {
     id: 2,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 인빈서블 3",
     content: "남성 로드 러닝화",
     price: 209000,
@@ -66,6 +73,9 @@ let menShoesData = [
   },
   {
     id: 3,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 '07 LV8",
     content: "남성 신발",
     price: 149000,
@@ -87,6 +97,9 @@ let menShoesData = [
   },
   {
     id: 4,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 '07",
     content: "남성 신발",
     price: 139000,
@@ -108,6 +121,9 @@ let menShoesData = [
   },
   {
     id: 5,
+    gender: "men",
+    productType: "shoes",
+    type: "트레이닝",
     title: "나이키 메트콘 8 AMP",
     content: "남성 트레이닝화",
     price: 169000,
@@ -129,6 +145,9 @@ let menShoesData = [
   },
   {
     id: 6,
+    gender: "men",
+    productType: "shoes",
+    type: "골프",
     title: "조던 레트로 6 G",
     content: "남성 골프화",
     price: 269000,
@@ -150,6 +169,9 @@ let menShoesData = [
   },
   {
     id: 7,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 덩크 점보",
     content: "남성 신발",
     price: 149000,
@@ -171,6 +193,9 @@ let menShoesData = [
   },
   {
     id: 8,
+    gender: "men",
+    productType: "shoes",
+    type: "러닝",
     title: "나이키 베이퍼플라이 2",
     content: "남성 로드 레이싱화",
     price: 279000,
@@ -192,6 +217,9 @@ let menShoesData = [
   },
   {
     id: 9,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 97",
     content: "남성 신발",
     price: 219000,
@@ -214,6 +242,9 @@ let menShoesData = [
   },
   {
     id: 10,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 허라치",
     content: "남성 신발",
     price: 149000,
@@ -236,6 +267,9 @@ let menShoesData = [
   },
   {
     id: 11,
+    gender: "men",
+    productType: "shoes",
+    type: "농구",
     title: "에어 조던 XXXVII 로우 PF",
     content: "남성 농구화",
     price: 209000,
@@ -257,6 +291,9 @@ let menShoesData = [
   },
   {
     id: 12,
+    gender: "men",
+    productType: "shoes",
+    type: "축구",
     title: "나이키 티엠포 레전드 9 엘리트 FG",
     content: "천연 잔디 클리트 축구화",
     price: 269000,
@@ -278,6 +315,9 @@ let menShoesData = [
   },
   {
     id: 13,
+    gender: "men",
+    productType: "shoes",
+    type: "축구",
     title: "나이키 티엠포 레전드 9 엘리트 FG",
     content: "천연 잔디 클리트 축구화",
     price: 269000,
@@ -299,6 +339,9 @@ let menShoesData = [
   },
   {
     id: 14,
+    gender: "men",
+    productType: "shoes",
+    type: "농구",
     title: "PG 6 EP",
     content: "농구화",
     price: 129000,
@@ -320,6 +363,9 @@ let menShoesData = [
   },
   {
     id: 15,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 미드 '07 LV8",
     content: "남성 신발",
     price: 149000,
@@ -342,6 +388,9 @@ let menShoesData = [
   },
   {
     id: 16,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 플라이니트 레이서",
     content: "남성 신발",
     price: 189000,
@@ -364,6 +413,9 @@ let menShoesData = [
   },
   {
     id: 17,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 레볼루션 6 넥스트 네이처",
     content: "남성 신발",
     price: 69000,
@@ -385,6 +437,9 @@ let menShoesData = [
   },
   {
     id: 18,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 줌 G.T. 컷 2",
     content: "남성 신발",
     price: 209000,
@@ -406,6 +461,9 @@ let menShoesData = [
   },
   {
     id: 19,
+    gender: "men",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 프리데이",
     content: "남성 신발",
     price: 169000,
@@ -427,6 +485,9 @@ let menShoesData = [
   },
   {
     id: 20,
+    gender: "men",
+    productType: "shoes",
+    type: "농구",
     title: "KD15 EP",
     content: "농구화",
     price: 189000,

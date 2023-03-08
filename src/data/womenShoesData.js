@@ -1,6 +1,9 @@
 let womenShoesData = [
   {
     id: 0,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 쉐도우",
     content: "여성 신발",
     price: 159000,
@@ -23,6 +26,9 @@ let womenShoesData = [
   },
   {
     id: 1,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 '07",
     content: "여성 신발",
     price: 139000,
@@ -44,6 +50,9 @@ let womenShoesData = [
   },
   {
     id: 2,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우 SE",
     content: "여성 신발",
     price: 139000,
@@ -67,6 +76,9 @@ let womenShoesData = [
   },
   {
     id: 3,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우",
     content: "여성 신발",
     price: 129000,
@@ -89,6 +101,9 @@ let womenShoesData = [
   },
   {
     id: 4,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우",
     content: "여성 신발",
     price: 129000,
@@ -110,6 +125,9 @@ let womenShoesData = [
   },
   {
     id: 5,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 폰탄카 와플",
     content: "여성 신발",
     price: 119000,
@@ -131,6 +149,9 @@ let womenShoesData = [
   },
   {
     id: 6,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 '07 SE",
     content: "여성 신발",
     price: 139000,
@@ -153,6 +174,9 @@ let womenShoesData = [
   },
   {
     id: 7,
+    gender: "women",
+    productType: "shoes",
+    type: "조던",
     title: "에어 조던 1 엘리베이트 로우",
     content: "여성 신발",
     price: 169000,
@@ -174,6 +198,9 @@ let womenShoesData = [
   },
   {
     id: 8,
+    gender: "women",
+    productType: "shoes",
+    type: "조던",
     title: "에어 조던 1 로우 SE",
     content: "여성 신발",
     price: 139000,
@@ -195,6 +222,9 @@ let womenShoesData = [
   },
   {
     id: 9,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우 넥스트 네이처",
     content: "여성 신발",
     price: 129000,
@@ -216,6 +246,9 @@ let womenShoesData = [
   },
   {
     id: 10,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 PLT.AF.ORM",
     content: "여성 신발",
     price: 149000,
@@ -239,6 +272,9 @@ let womenShoesData = [
   },
   {
     id: 11,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 97 프리미엄",
     content: "여성 신발",
     price: 229000,
@@ -261,6 +297,9 @@ let womenShoesData = [
   },
   {
     id: 12,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 97",
     content: "여성 신발",
     price: 139000,
@@ -283,6 +322,9 @@ let womenShoesData = [
   },
   {
     id: 13,
+    gender: "women",
+    productType: "shoes",
+    type: "트레이닝",
     title: "나이키 프리 메트콘 4",
     content: "트레이닝화",
     price: 139000,
@@ -304,6 +346,9 @@ let womenShoesData = [
   },
   {
     id: 14,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 97",
     content: "여성 신발",
     price: 219000,
@@ -327,6 +372,9 @@ let womenShoesData = [
   },
   {
     id: 15,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 하이",
     content: "여성 신발",
     price: 139000,
@@ -349,6 +397,9 @@ let womenShoesData = [
   },
   {
     id: 16,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 LXX",
     content: "여성 신발",
     price: 149000,
@@ -371,6 +422,9 @@ let womenShoesData = [
   },
   {
     id: 17,
+    gender: "women",
+    productType: "shoes",
+    type: "테니스",
     title: "나이키코트 줌 NXT",
     content: "여성 하드 코트 테니스화",
     price: 169000,
@@ -392,6 +446,9 @@ let womenShoesData = [
   },
   {
     id: 18,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 덩크 로우 SV",
     content: "여성 신발",
     price: 139000,
@@ -414,6 +471,9 @@ let womenShoesData = [
   },
   {
     id: 19,
+    gender: "women",
+    productType: "shoes",
+    type: "골프",
     title: "나이키 에어맥스 90 G NRG",
     content: "골프화",
     price: 179000,
@@ -435,6 +495,9 @@ let womenShoesData = [
   },
   {
     id: 20,
+    gender: "women",
+    productType: "shoes",
+    type: "축구",
     title: "나이키 티엠포 레전드 9 엘리트 FG",
     content: "천연 잔디 클리트 축구화",
     price: 269000,
@@ -456,6 +519,9 @@ let womenShoesData = [
   },
   {
     id: 21,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어 포스 1 하이 오리지널",
     content: "여성 신발",
     price: 149000,
@@ -478,6 +544,9 @@ let womenShoesData = [
   },
   {
     id: 22,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 블레이저 로우 '77 점보",
     content: "여성 신발",
     price: 109000,
@@ -501,6 +570,9 @@ let womenShoesData = [
   },
   {
     id: 23,
+    gender: "women",
+    productType: "shoes",
+    type: "러닝",
     title: "나이키 줌 플라이 5",
     content: "여성 로드 러닝화",
     price: 189000,
@@ -523,6 +595,9 @@ let womenShoesData = [
   },
   {
     id: 24,
+    gender: "women",
+    productType: "shoes",
+    type: "러닝",
     title: "나이키 페가수스 트레일 4 GORE-TEX",
     content: "여성 워터프루프 트레일 러닝화",
     price: 189000,
@@ -544,6 +619,9 @@ let womenShoesData = [
   },
   {
     id: 25,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 TC 7900",
     content: "여성 신발",
     price: 139000,
@@ -566,6 +644,9 @@ let womenShoesData = [
   },
   {
     id: 26,
+    gender: "women",
+    productType: "shoes",
+    type: "스케이트보드",
     title: "나이키 SB 줌 포고 플러스",
     content: "스케이트보드화",
     price: 99000,
@@ -587,6 +668,9 @@ let womenShoesData = [
   },
   {
     id: 27,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 95",
     content: "여성 신발",
     price: 199000,
@@ -611,6 +695,9 @@ let womenShoesData = [
   },
   {
     id: 28,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 와플 데뷰",
     content: "여성 신발",
     price: 89000,
@@ -632,6 +719,9 @@ let womenShoesData = [
   },
   {
     id: 29,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 AP",
     content: "여성 신발",
     price: 129000,
@@ -653,6 +743,9 @@ let womenShoesData = [
   },
   {
     id: 30,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 90 퓨추라",
     content: "여성 신발",
     price: 169000,
@@ -675,6 +768,9 @@ let womenShoesData = [
   },
   {
     id: 31,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 97",
     content: "여성 신발",
     price: 219000,
@@ -696,6 +792,9 @@ let womenShoesData = [
   },
   {
     id: 32,
+    gender: "women",
+    productType: "shoes",
+    type: "축구",
     title: "나이키 티엠포 레전드 9 엘리트 FG",
     content: "천연 잔디 클리트 축구화",
     price: 269000,
@@ -717,6 +816,9 @@ let womenShoesData = [
   },
   {
     id: 33,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 블리스",
     content: "여성 신발",
     price: 169000,
@@ -738,6 +840,9 @@ let womenShoesData = [
   },
   {
     id: 34,
+    gender: "women",
+    productType: "shoes",
+    type: "농구",
     title: "PG 6 EP",
     content: "농구화",
     price: 129000,
@@ -759,6 +864,9 @@ let womenShoesData = [
   },
   {
     id: 35,
+    gender: "women",
+    productType: "shoes",
+    type: "축구",
     title: "나이키 팬텀 GT2 엘리트 다이내믹 핏 FG",
     content: "천연 잔디 클리트 축구화",
     price: 309000,
@@ -780,6 +888,9 @@ let womenShoesData = [
   },
   {
     id: 36,
+    gender: "women",
+    productType: "shoes",
+    type: "트레이닝",
     title: "나이키 에어맥스 벨라 TR 5",
     content: "여성 트레이닝화",
     price: 99000,
@@ -802,6 +913,9 @@ let womenShoesData = [
   },
   {
     id: 37,
+    gender: "women",
+    productType: "shoes",
+    type: "스케이트보드",
     title: "나이키 SB 포고 프리미엄",
     content: "스케이트보드화",
     price: 109000,
@@ -824,6 +938,9 @@ let womenShoesData = [
   },
   {
     id: 38,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 에어맥스 던",
     content: "여성 신발",
     price: 139000,
@@ -846,6 +963,9 @@ let womenShoesData = [
   },
   {
     id: 39,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 와플 데뷰",
     content: "여성 신발",
     price: 89000,
@@ -867,6 +987,9 @@ let womenShoesData = [
   },
   {
     id: 40,
+    gender: "women",
+    productType: "shoes",
+    type: "general",
     title: "나이키 데이브레이크",
     content: "여성 신발",
     price: 119000,
@@ -889,6 +1012,9 @@ let womenShoesData = [
   },
   {
     id: 41,
+    gender: "women",
+    productType: "shoes",
+    type: "조던",
     title: "에어 조던 1 미드",
     content: "여성 신발",
     price: 159000,

@@ -73,8 +73,9 @@ const NavigationBar = () => {
             </div>
             <div className='product-list-area'>
               <ul className='product-list'>
+                {/* 상품전체페이지로 이동하게 됨 */}
                 {menuList.map((menu, index) => (
-                  <Link to={`/productAll/${menu}`} key={index}>
+                  <Link to={`/productAll/${menu}`} key={index}> 
                     <li className='shoppingMenu' aria-label={`${menu}`} onMouseOver={() => { handleMenu(menu) }}>{menu}</li>
                   </Link>
                 ))}

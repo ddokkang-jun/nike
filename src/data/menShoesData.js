@@ -1,6 +1,8 @@
 let menShoesData = [
   {
     id: 0,
+    gender: "men",
+    type: "general",
     title: "나이키 에어 포스 1 '07",
     content: "남성 신발",
     price: 139000,

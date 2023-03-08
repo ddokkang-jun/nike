@@ -21,46 +21,22 @@ const SubMenubar = ({ hoveredMenu }) => {
     <div className='subMenubar'>
       <div>
         <ul className='subMenu-area'>
-          {/* {hoveredMenuName === "men" ? men.shoesList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
-          )) : ""}
-          {hoveredMenuName === "women" ? women.shoesList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
-          )) : ""}
-          {hoveredMenuName === "kids" ? kids.shoesList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
-          )) : ""}
-          {hoveredMenuName === "sale" ? sale.mensSaleList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
-          )) : ""} */}
           {(hoveredMenuName === "men" ? men.shoesList : hoveredMenuName === "women" ? women.shoesList : hoveredMenuName === "kids" ? kids.shoesList : hoveredMenuName === "sale" ? sale.mensSaleList : []).map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
+            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${hoveredMenuName}/${menu}`) }}>{menu}</li>
           ))}
         </ul>
       </div>
       <div>
         <ul className='subMenu-area'>
-          {/* {hoveredMenuName === "men" ? men.clothList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
-          )) : ""}
-          {hoveredMenuName === "women" ? women.clothList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
-          )) : ""}
-          {hoveredMenuName === "kids" ? kids.clothList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
-          )) : ""}
-          {hoveredMenuName === "sale" ? sale.womenSaleList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
-          )) : ""} */}
-          {(hoveredMenuName === "men" ? men.clothList : hoveredMenuName === "women" ? women.clothList : hoveredMenuName === "kids" ? kids.clothList : hoveredMenuName === "sale" ? sale.mensSaleList : []).map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
+          {(hoveredMenuName === "men" ? men.clothList : hoveredMenuName === "women" ? women.clothList : hoveredMenuName === "kids" ? kids.clothList : hoveredMenuName === "sale" ? sale.womenSaleList : []).map((menu, index) => (
+            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${hoveredMenuName}/${menu}`) }}>{menu}</li>
           ))}
         </ul>
       </div>
       <div>
         <ul className='subMenu-area'>
           {hoveredMenuName === "sale" ? sale.kidsSaleList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${menu}`) }}>{menu}</li>
+            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${hoveredMenuName}/${menu}`) }}>{menu}</li>
           )) : ""}
         </ul>
       </div>

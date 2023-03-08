@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const ProductAllPageProductCard = () => {
+const ProductAllPageProductCard = ({ item }) => {
+  // console.log("item", item);
   return (
-    <div>
-      상품전체페이지의 상품카드
+    <div className='card'>
+      <img src={item?.imageAddress} alt="" />
+      <h1>{item.title}</h1>
     </div>
   )
 }
 
-export default ProductAllPageProductCard
+export default ProductAllPageProductCard;

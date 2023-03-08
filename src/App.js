@@ -36,7 +36,8 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/productAll/:id' element={<ProductAll />} />
+        <Route path='/productAll/:gender' element={<ProductAll />} />    
+        <Route path='/productAll/:gender/:productType' element={<ProductAll />} />
         <Route path='/detail/:id' element={<ProductDetail />} />
         <Route path='*' element={<div>404없는페이지임</div>} />
         <Route path='/cart' element={<Cart />} />

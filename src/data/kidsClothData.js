@@ -1,6 +1,9 @@
 let kidsClothData = [
   {
     id: 0,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 드라이 핏 엘레이트 올 유",
     content: "주니어(여아) 스포츠 브라",
     price: 35000,
@@ -23,6 +26,9 @@ let kidsClothData = [
   },
   {
     id: 1,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어 트렌드",
     content: "주니어(여아) 플리스 스웻셔츠",
     price: 59000,
@@ -44,6 +50,9 @@ let kidsClothData = [
   },
   {
     id: 2,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 트렌드",
     content: "주니어(여아) 플리스 팬츠",
     price: 59000,
@@ -67,6 +76,9 @@ let kidsClothData = [
   },
   {
     id: 3,
+    gender: "kids",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 스포츠웨어 트렌드",
     content: "주니어(여아) 풀집 플리스 후디",
     price: 69000,
@@ -89,6 +101,9 @@ let kidsClothData = [
   },
   {
     id: 4,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 아이콘 플리스",
     content: "주니어 루즈 조거",
     price: 59000,
@@ -113,6 +128,9 @@ let kidsClothData = [
   },
   {
     id: 5,
+    gender: "kids",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 써마 핏",
     content: "주니어(여아) 후디",
     price: 99000,
@@ -135,6 +153,9 @@ let kidsClothData = [
   },
   {
     id: 6,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "브루클린 플리스 플래드 조거 팬츠",
     content: "주니어 조거",
     price: 69000,
@@ -158,6 +179,9 @@ let kidsClothData = [
   },
   {
     id: 7,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 아웃도어 플레이",
     content: "주니어 루즈 팬츠",
     price: 75000,
@@ -182,6 +206,9 @@ let kidsClothData = [
   },
   {
     id: 8,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 프로",
     content: "주니어(여아) 레깅스",
     price: 45000,
@@ -205,6 +232,9 @@ let kidsClothData = [
   },
   {
     id: 9,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어",
     content: "주니어(남아) 우븐 유틸리티 카고 쇼츠",
     price: 55000,
@@ -227,6 +257,9 @@ let kidsClothData = [
   },
   {
     id: 10,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 클럽 플리스",
     content: "주니어 팬츠",
     price: 45000,
@@ -250,6 +283,9 @@ let kidsClothData = [
   },
   {
     id: 11,
+    gender: "kids",
+    productType: "cloth",
+    type: "양말",
     title: "나이키 에브리데이",
     content: "주니어 쿠션 크루 삭스(3켤레)",
     price: 19000,
@@ -269,6 +305,9 @@ let kidsClothData = [
   },
   {
     id: 12,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 아이콘 플리스",
     content: "주니어 루즈 핏 쇼츠",
     price: 55000,
@@ -295,6 +334,9 @@ let kidsClothData = [
   },
   {
     id: 13,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 아웃도어 플레이",
     content: "주니어 오버사이즈 우븐 재킷",
     price: 79000,
@@ -317,6 +359,9 @@ let kidsClothData = [
   },
   {
     id: 14,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 아웃도어 플레이",
     content: "주니어 오버사이즈 우븐 재킷",
     price: 79000,
@@ -339,6 +384,9 @@ let kidsClothData = [
   },
   {
     id: 15,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 클럽",
     content: "주니어(남아) 프렌치 테리 팬츠",
     price: 45000,
@@ -361,6 +409,9 @@ let kidsClothData = [
   },
   {
     id: 16,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어",
     content: "주니어 인조 퍼 재킷",
     price: 159000,
@@ -383,6 +434,9 @@ let kidsClothData = [
   },
   {
     id: 17,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 ACG Polartec® '울프 트리'",
     content: "주니어 팬츠",
     price: 95000,
@@ -407,6 +461,9 @@ let kidsClothData = [
   },
   {
     id: 18,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 리펠 애슬레틱스",
     content: "주니어(남아) 트레이닝 팬츠",
     price: 69000,
@@ -431,6 +488,9 @@ let kidsClothData = [
   },
   {
     id: 19,
+    gender: "kids",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 써마 핏",
     content: "주니어(여아) 풀오버 후디",
     price: 55000,
@@ -452,6 +512,9 @@ let kidsClothData = [
   },
   {
     id: 20,
+    gender: "kids",
+    productType: "cloth",
+    type: "양말",
     title: "조던 짐 '23' 앵클 그리퍼 양말(3팩)",
     content: "베이비(12-24개월) 양말",
     price: 15000,
@@ -472,6 +535,9 @@ let kidsClothData = [
   },
   {
     id: 21,
+    gender: "kids",
+    productType: "cloth",
+    type: "양말",
     title: "조던 베이비 그리퍼 삭스(3켤레)",
     content: "베이비 그리퍼 삭스",
     price: 15000,
@@ -492,6 +558,9 @@ let kidsClothData = [
   },
   {
     id: 22,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 ACG 스톰 핏 ‘로프 드 도프’",
     content: "주니어 팬츠",
     price: 109000,
@@ -516,6 +585,9 @@ let kidsClothData = [
   },
   {
     id: 23,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어 클럽 플리스",
     content: "주니어(여아) 크루 스웻셔츠",
     price: 49000,
@@ -537,6 +609,9 @@ let kidsClothData = [
   },
   {
     id: 24,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어",
     content: "주니어 프렌치 테리 트랙수트",
     price: 85000,
@@ -562,6 +637,9 @@ let kidsClothData = [
   },
   {
     id: 25,
+    gender: "kids",
+    productType: "cloth",
+    type: "양말",
     title: "나이키 드라이 핏",
     content: "리틀 키즈용 쿠션 크루 삭스(3팩)",
     price: 19000,
@@ -581,6 +659,9 @@ let kidsClothData = [
   },
   {
     id: 26,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 ACG 스톰 핏 ‘로프 드 도프’",
     content: "주니어 재킷",
     price: 179000,
@@ -604,6 +685,9 @@ let kidsClothData = [
   },
   {
     id: 27,
+    gender: "kids",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 스포츠웨어 클럽",
     content: "주니어(남아) 프렌치 테리 풀집 후디",
     price: 55000,
@@ -626,6 +710,9 @@ let kidsClothData = [
   },
   {
     id: 28,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 드라이 핏 애슬레틱스",
     content: "주니어(남아) 긴팔 트레이닝 탑",
     price: 45000,
@@ -648,6 +735,9 @@ let kidsClothData = [
   },
   {
     id: 29,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 클럽 플리스",
     content: "주니어(남아) 오픈 헴 팬츠",
     price: 45000,
@@ -670,6 +760,9 @@ let kidsClothData = [
   },
   {
     id: 30,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "르브론",
     content: "주니어(남아) 트랙 팬츠",
     price: 75000,
@@ -693,6 +786,9 @@ let kidsClothData = [
   },
   {
     id: 31,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 클럽",
     content: "주니어(남아) 카고 팬츠",
     price: 55000,
@@ -713,6 +809,9 @@ let kidsClothData = [
   },
   {
     id: 32,
+    gender: "kids",
+    productType: "cloth",
+    type: "후디",
     title: "브루클린 플리스 플래드 후디 앤 스웨츠 세트",
     content: "베이비 세트",
     price: 75000,
@@ -735,6 +834,9 @@ let kidsClothData = [
   },
   {
     id: 33,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 드라이 핏 아카데미23",
     content: "키즈 축구 트랙수트",
     price: 85000,
@@ -760,6 +862,9 @@ let kidsClothData = [
   },
   {
     id: 34,
+    gender: "kids",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 스포츠웨어 클럽",
     content: "주니어 풀집 후디",
     price: 55000,
@@ -783,6 +888,9 @@ let kidsClothData = [
   },
   {
     id: 35,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "대한민국",
     content: "주니어 나이키 드라이 핏 축구 팬츠",
     price: 89000,
@@ -806,6 +914,9 @@ let kidsClothData = [
   },
   {
     id: 36,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 써마 핏 원 아웃도어 플레이",
     content: "나이키 써마 핏 원 아웃도어 플레이",
     price: 45000,
@@ -828,6 +939,9 @@ let kidsClothData = [
   },
   {
     id: 37,
+    gender: "kids",
+    productType: "cloth",
+    type: "양말",
     title: "나이키 에브리데이 플러스 쿠션",
     content: "키즈 크루 삭스",
     price: 27000,
@@ -849,6 +963,9 @@ let kidsClothData = [
   },
   {
     id: 38,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어",
     content: "주니어(여아) 하이라이즈 9인치 바이크 쇼츠",
     price: 29000,
@@ -871,6 +988,9 @@ let kidsClothData = [
   },
   {
     id: 39,
+    gender: "kids",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 스포츠웨어 클럽 플리스",
     content: "주니어 그래픽 풀오버 후디",
     price: 55000,
@@ -893,6 +1013,9 @@ let kidsClothData = [
   },
   {
     id: 40,
+    gender: "kids",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어",
     content: "주니어(남아) 플리스 스웻셔츠",
     price: 59000,
@@ -915,6 +1038,9 @@ let kidsClothData = [
   },
   {
     id: 41,
+    gender: "kids",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어",
     content: "주니어(남아) 조거",
     price: 59000,

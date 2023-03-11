@@ -1,6 +1,9 @@
 let menClothData = [
   {
     id: 0,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 ACG Sunfarer",
     content: "남성 트레일 팬츠",
     price: 139000,
@@ -22,6 +25,9 @@ let menClothData = [
   },
   {
     id: 1,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 솔로 스우시",
     content: "남성 플리스 팬츠",
     price: 109000,
@@ -44,6 +50,9 @@ let menClothData = [
   },
   {
     id: 2,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "조던 에센셜",
     content: "남성 플리스 팬츠",
     price: 85000,
@@ -65,6 +74,9 @@ let menClothData = [
   },
   {
     id: 3,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "조던 에센셜",
     content: "남성 플리스 팬츠",
     price: 85000,
@@ -86,6 +98,9 @@ let menClothData = [
   },
   {
     id: 4,
+    gender: "men",
+    productType: "cloth",
+    type: "티셔츠",
     title: "나이키 솔로 스우시",
     content: "남성 티셔츠",
     price: 45000,
@@ -107,6 +122,9 @@ let menClothData = [
   },
   {
     id: 5,
+    gender: "men",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 솔로 스우시",
     content: "남성 플리스 후디",
     price: 109000,
@@ -128,6 +146,9 @@ let menClothData = [
   },
   {
     id: 6,
+    gender: "men",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 솔로 스우시",
     content: "남성 트랙 재킷",
     price: 179000,
@@ -147,6 +168,9 @@ let menClothData = [
   },
   {
     id: 7,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 솔로 스우시",
     content: "남성 트랙 팬츠",
     price: 169000,
@@ -170,6 +194,9 @@ let menClothData = [
   },
   {
     id: 8,
+    gender: "men",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 드라이 핏 레전드",
     content: "남성 긴팔 피트니스 탑",
     price: 45000,
@@ -190,6 +217,9 @@ let menClothData = [
   },
   {
     id: 9,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 프로 플렉스 벤트 맥스",
     content: "남성 겨울용 팬츠",
     price: 139000,
@@ -212,6 +242,9 @@ let menClothData = [
   },
   {
     id: 10,
+    gender: "men",
+    productType: "cloth",
+    type: "타이츠",
     title: "나이키 프로 웜",
     content: "남성 타이츠",
     price: 69000,
@@ -234,6 +267,9 @@ let menClothData = [
   },
   {
     id: 11,
+    gender: "men",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 ACG Cinder Cone",
     content: "남성 윈드프루프 재킷",
     price: 169000,
@@ -256,6 +292,9 @@ let menClothData = [
   },
   {
     id: 12,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 ACG 스미스 서밋",
     content: "남성 카고 팬츠",
     price: 225000,
@@ -278,6 +317,9 @@ let menClothData = [
   },
   {
     id: 13,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 드라이 핏 페놈 엘리트",
     content: "남성 니트 러닝 팬츠",
     price: 109000,
@@ -301,6 +343,9 @@ let menClothData = [
   },
   {
     id: 14,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "조던 스테이트먼트 에센셜",
     content: "남성 크롭 팬츠",
     price: 99000,
@@ -322,6 +367,9 @@ let menClothData = [
   },
   {
     id: 15,
+    gender: "men",
+    productType: "cloth",
+    type: "후디",
     title: "조던 에센셜",
     content: "남성 플리스 풀오버 후디",
     price: 85000,
@@ -343,6 +391,9 @@ let menClothData = [
   },
   {
     id: 16,
+    gender: "men",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 써마 핏 ADV ACG Lunar Lake",
     content: "패딩 재킷",
     price: 405000,
@@ -367,6 +418,9 @@ let menClothData = [
   },
   {
     id: 17,
+    gender: "men",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어",
     content: "남성 폴로",
     price: 75000,
@@ -389,6 +443,9 @@ let menClothData = [
   },
   {
     id: 18,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "조던 에센셜",
     content: "남성 유틸리티 팬츠",
     price: 129000,
@@ -411,6 +468,9 @@ let menClothData = [
   },
   {
     id: 19,
+    gender: "men",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 ACG 써마 핏 Wolf Tree",
     content: "남성 풀오버 후디",
     price: 189000,
@@ -438,6 +498,9 @@ let menClothData = [
   },
   {
     id: 20,
+    gender: "men",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 프로 플렉스 벤트 맥스",
     content: "남성 윈터라이즈드 피트니스 재킷",
     price: 149000,
@@ -463,6 +526,9 @@ let menClothData = [
   },
   {
     id: 21,
+    gender: "men",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어 클럽",
     content: "남성 브러시드 백 하프집 풀오버",
     price: 89000,
@@ -484,6 +550,9 @@ let menClothData = [
   },
   {
     id: 22,
+    gender: "men",
+    productType: "cloth",
+    type: "후디",
     title: "조던 23 엔지니어드",
     content: "남성 플리스 풀오버",
     price: 169000,
@@ -508,6 +577,9 @@ let menClothData = [
   },
   {
     id: 23,
+    gender: "men",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 ACG 써마 핏",
     content: "플리스 크루",
     price: 119000,
@@ -531,6 +603,9 @@ let menClothData = [
   },
   {
     id: 24,
+    gender: "men",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어 서카",
     content: "남성 가디건",
     price: 195000,
@@ -553,6 +628,9 @@ let menClothData = [
   },
   {
     id: 25,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 SB 커니",
     content: "스케이트보딩 카고 팬츠",
     price: 119000,
@@ -576,6 +654,9 @@ let menClothData = [
   },
   {
     id: 26,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 드라이 핏",
     content: "남성 우븐 팀 트레이닝 팬츠",
     price: 65000,
@@ -599,6 +680,9 @@ let menClothData = [
   },
   {
     id: 27,
+    gender: "men",
+    productType: "cloth",
+    type: "티셔츠",
     title: "타이거 우즈 프랭크",
     content: "골프 티셔츠",
     price: 45000,
@@ -620,6 +704,9 @@ let menClothData = [
   },
   {
     id: 28,
+    gender: "men",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 써마 핏",
     content: "남성 풀오버 피트니스 후디",
     price: 75000,
@@ -643,6 +730,9 @@ let menClothData = [
   },
   {
     id: 29,
+    gender: "men",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 스포츠웨어 클럽 플리스",
     content: "크루",
     price: 69000,
@@ -663,6 +753,9 @@ let menClothData = [
   },
   {
     id: 30,
+    gender: "men",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 드라이 핏",
     content: "남성 우븐 트레이닝 재킷",
     price: 79000,
@@ -684,6 +777,9 @@ let menClothData = [
   },
   {
     id: 31,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 드라이 핏 챌린저",
     content: "남성 우븐 러닝 팬츠",
     price: 89000,
@@ -708,6 +804,9 @@ let menClothData = [
   },
   {
     id: 32,
+    gender: "men",
+    productType: "cloth",
+    type: "재킷",
     title: "조던 스포츠",
     content: "남성 바시티 재킷",
     price: 149000,
@@ -729,6 +828,9 @@ let menClothData = [
   },
   {
     id: 33,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 클럽",
     content: "남성 조거",
     price: 75000,
@@ -752,6 +854,9 @@ let menClothData = [
   },
   {
     id: 34,
+    gender: "men",
+    productType: "cloth",
+    type: "재킷",
     title: "조던 23 엔지니어드",
     content: "남성 재킷",
     price: 129000,
@@ -777,6 +882,9 @@ let menClothData = [
   },
   {
     id: 35,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 요가 드라이 핏",
     content: "남성 팬츠",
     price: 85000,
@@ -799,6 +907,9 @@ let menClothData = [
   },
   {
     id: 36,
+    gender: "men",
+    productType: "cloth",
+    type: "티셔츠",
     title: "나이키 ACG",
     content: "남성 긴팔 티셔츠",
     price: 69000,
@@ -820,6 +931,9 @@ let menClothData = [
   },
   {
     id: 37,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "조던 드라이 핏 스포츠 BC",
     content: "남성 다이아몬드 쇼츠",
     price: 65000,
@@ -842,6 +956,9 @@ let menClothData = [
   },
   {
     id: 38,
+    gender: "men",
+    productType: "cloth",
+    type: "후디",
     title: "조던 에센셜 윈터",
     content: "남성 플리스 후디",
     price: 99000,
@@ -865,6 +982,9 @@ let menClothData = [
   },
   {
     id: 39,
+    gender: "men",
+    productType: "cloth",
+    type: "탑",
     title: "NikeLab",
     content: "플리스 크루",
     price: 99000,
@@ -885,6 +1005,9 @@ let menClothData = [
   },
   {
     id: 40,
+    gender: "men",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 라이프",
     content: "남성 엘 치노 팬츠",
     price: 109000,
@@ -906,6 +1029,9 @@ let menClothData = [
   },
   {
     id: 41,
+    gender: "men",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 ACG 써마 핏",
     content: "플리스 풀오버 후디",
     price: 139000,

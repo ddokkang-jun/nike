@@ -51,7 +51,7 @@ let menShoesData = [
     id: 2,
     gender: "men",
     productType: "shoes",
-    type: "general",
+    type: "러닝",
     title: "나이키 인빈서블 3",
     content: "남성 로드 러닝화",
     price: 209000,

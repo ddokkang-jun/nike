@@ -1,6 +1,9 @@
 let womenClothData = [
   {
     id: 0,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 써마 핏 시티 시리즈",
     content: "여성 합성 필 샤인 재킷",
     price: 279000,
@@ -25,6 +28,9 @@ let womenClothData = [
   },
   {
     id: 1,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 써마 핏 리펠",
     content: "여성 리버서블 재킷",
     price: 189000,
@@ -48,6 +54,9 @@ let womenClothData = [
   },
   {
     id: 2,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 써마 핏 시티 시리즈",
     content: "여성 600 필 파워 다운 재킷",
     price: 299000,
@@ -71,6 +80,9 @@ let womenClothData = [
   },
   {
     id: 3,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 아이콘 클래쉬",
     content: "여성 풀집 재킷",
     price: 189000,
@@ -92,6 +104,9 @@ let womenClothData = [
   },
   {
     id: 4,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 플러시",
     content: "여성 프린트 인조 퍼 재킷",
     price: 219000,
@@ -112,6 +127,9 @@ let womenClothData = [
   },
   {
     id: 5,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 써마 핏 시티 시리즈",
     content: "여성 600 필 파워 다운 재킷",
     price: 359000,
@@ -135,6 +153,9 @@ let womenClothData = [
   },
   {
     id: 6,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 써마 핏 시티 시리즈",
     content: "여성 합성 필 후드 재킷",
     price: 279000,
@@ -160,6 +181,9 @@ let womenClothData = [
   },
   {
     id: 7,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 에센셜",
     content: "여성 우븐 플리스 라인드 재킷",
     price: 155000,
@@ -182,6 +206,9 @@ let womenClothData = [
   },
   {
     id: 8,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 클럽 플리스",
     content: "여성 미드라이즈 오버사이즈 스웻팬츠",
     price: 75000,
@@ -204,6 +231,9 @@ let womenClothData = [
   },
   {
     id: 9,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 클럽 플리스",
     content: "여성 미드라이즈 조거",
     price: 75000,
@@ -225,6 +255,9 @@ let womenClothData = [
   },
   {
     id: 10,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 써마 핏 윈드러너",
     content: "여성 다운 베스트",
     price: 179000,
@@ -249,6 +282,9 @@ let womenClothData = [
   },
   {
     id: 11,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 써마",
     content: "여성 트레이닝 팬츠",
     price: 75000,
@@ -270,6 +306,9 @@ let womenClothData = [
   },
   {
     id: 12,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어",
     content: "여성 인조 퍼 롱 재킷",
     price: 269000,
@@ -291,6 +330,9 @@ let womenClothData = [
   },
   {
     id: 13,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 스포츠웨어 피닉스 플리스",
     content: "여성 하이웨이스트 오버사이즈 스웻팬츠",
     price: 79000,
@@ -312,6 +354,9 @@ let womenClothData = [
   },
   {
     id: 14,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 클럽 플리스",
     content: "여성 미드라이즈 오버사이즈 카고 스웻팬츠",
     price: 79000,
@@ -334,6 +379,9 @@ let womenClothData = [
   },
   {
     id: 15,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 써마 핏 ADV ACG Lunar Lake",
     content: "패딩 재킷",
     price: 405000,
@@ -358,6 +406,9 @@ let womenClothData = [
   },
   {
     id: 16,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 ACG 써마 핏 ADV ACG Rope De Dope",
     content: "여성 재킷",
     price: 249000,
@@ -382,6 +433,9 @@ let womenClothData = [
   },
   {
     id: 17,
+    gender: "women",
+    productType: "cloth",
+    type: "쇼츠",
     title: "나이키 스포츠웨어 스우시",
     content: "여성 우븐 하이라이즈 쇼츠",
     price: 59000,
@@ -404,6 +458,9 @@ let womenClothData = [
   },
   {
     id: 18,
+    gender: "women",
+    productType: "cloth",
+    type: "쇼츠",
     title: "나이키 템포",
     content: "여성 러닝 쇼츠",
     price: 45000,
@@ -428,6 +485,9 @@ let womenClothData = [
   },
   {
     id: 19,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 드라이 핏 시티 레디",
     content: "여성 베스트",
     price: 139000,
@@ -450,6 +510,9 @@ let womenClothData = [
   },
   {
     id: 20,
+    gender: "women",
+    productType: "cloth",
+    type: "스포츠브라",
     title: "나이키 인디",
     content: "여성 라이트 서포트 패드 브이넥 스포츠 브라",
     price: 39000,
@@ -471,6 +534,9 @@ let womenClothData = [
   },
   {
     id: 21,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "나이키 드라이 핏 스우시 런",
     content: "여성 러닝 재킷",
     price: 99000,
@@ -494,6 +560,9 @@ let womenClothData = [
   },
   {
     id: 22,
+    gender: "women",
+    productType: "cloth",
+    type: "스포츠브라",
     title: "나이키 알파",
     content: "여성 하이 서포트 패드 스포츠 브라",
     price: 69000,
@@ -517,6 +586,9 @@ let womenClothData = [
   },
   {
     id: 23,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 에어 드라이 핏",
     content: "여성 러닝 팬츠",
     price: 95000,
@@ -540,6 +612,9 @@ let womenClothData = [
   },
   {
     id: 24,
+    gender: "women",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 ACG 써마 핏",
     content: "플리스 크루",
     price: 119000,
@@ -563,6 +638,9 @@ let womenClothData = [
   },
   {
     id: 25,
+    gender: "women",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 드라이 핏 원",
     content: "여성 스탠다드 핏 반팔 크롭 탑",
     price: 45000,
@@ -584,6 +662,9 @@ let womenClothData = [
   },
   {
     id: 26,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 블리스 럭스",
     content: "여성 트레이닝 팬츠",
     price: 109000,
@@ -604,6 +685,9 @@ let womenClothData = [
   },
   {
     id: 27,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 SB 커니",
     content: "스케이트보딩 카고 팬츠",
     price: 119000,
@@ -627,6 +711,9 @@ let womenClothData = [
   },
   {
     id: 28,
+    gender: "women",
+    productType: "cloth",
+    type: "타이츠",
     title: "나이키 원",
     content: "여성 하이라이즈 레깅스",
     price: 49000,
@@ -649,6 +736,9 @@ let womenClothData = [
   },
   {
     id: 29,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어 플러시",
     content: "여성 조거",
     price: 95000,
@@ -670,6 +760,9 @@ let womenClothData = [
   },
   {
     id: 30,
+    gender: "women",
+    productType: "cloth",
+    type: "후디",
     title: "나이키 ACG 써마 핏",
     content: "플리스 풀오버 후디",
     price: 139000,
@@ -694,6 +787,9 @@ let womenClothData = [
   },
   {
     id: 31,
+    gender: "women",
+    productType: "cloth",
+    type: "탑",
     title: "나이키 드라이 핏 원",
     content: "여성 스탠다드 핏 숏슬리브 탑",
     price: 45000,
@@ -715,6 +811,9 @@ let womenClothData = [
   },
   {
     id: 32,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 SB 커니",
     content: "스케이트보딩 카고 팬츠",
     price: 119000,
@@ -739,6 +838,9 @@ let womenClothData = [
   },
   {
     id: 33,
+    gender: "women",
+    productType: "cloth",
+    type: "스포츠브라",
     title: "나이키 스우시",
     content: "여성 미디엄 서포트 일체형 패드 스포츠 브라",
     price: 39000,
@@ -760,6 +862,9 @@ let womenClothData = [
   },
   {
     id: 34,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 드라이 핏 블리스 빅토리",
     content: "여성 미드라이즈 트레이닝 팬츠",
     price: 79000,
@@ -780,6 +885,9 @@ let womenClothData = [
   },
   {
     id: 35,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 에어",
     content: "여성 미드라이즈 플리스 조거",
     price: 95000,
@@ -801,6 +909,9 @@ let womenClothData = [
   },
   {
     id: 36,
+    gender: "women",
+    productType: "cloth",
+    type: "재킷",
     title: "조던 플라이트",
     content: "여성 벨루어 재킷",
     price: 129000,
@@ -822,6 +933,9 @@ let womenClothData = [
   },
   {
     id: 37,
+    gender: "women",
+    productType: "cloth",
+    type: "후디",
     title: "나이키코트",
     content: "여성 플리스 테니스 후디",
     price: 99000,
@@ -844,6 +958,9 @@ let womenClothData = [
   },
   {
     id: 38,
+    gender: "women",
+    productType: "cloth",
+    type: "탑",
     title: "조던 플라이트",
     content: "여성 탑",
     price: 59000,
@@ -863,6 +980,9 @@ let womenClothData = [
   },
   {
     id: 39,
+    gender: "women",
+    productType: "cloth",
+    type: "스포츠브라",
     title: "나이키 드라이 핏 엘레이트 커버리지",
     content: "여성 라이트 서포트 패드 스포츠 브라",
     price: 55000,
@@ -887,6 +1007,9 @@ let womenClothData = [
   },
   {
     id: 40,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 드라이 핏 에센셜",
     content: "여성 러닝 팬츠",
     price: 89000,
@@ -910,6 +1033,9 @@ let womenClothData = [
   },
   {
     id: 41,
+    gender: "women",
+    productType: "cloth",
+    type: "팬츠",
     title: "나이키 스포츠웨어",
     content: "여성 미드라이즈 팬츠",
     price: 119000,

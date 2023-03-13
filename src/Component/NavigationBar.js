@@ -5,10 +5,13 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import SubMenubar from './SubMenubar';
+import { useDispatch, useSelector } from 'react-redux';
+import { setMainNavbarMenuClicked } from '../Store/productSlice';
 
 library.add(faCoffee, faCartShopping);
 
 const NavigationBar = () => {
+  let dispatch = useDispatch();
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [subShow, setSubShow] = useState(false);
@@ -33,11 +36,17 @@ const NavigationBar = () => {
     setLastScrollY(window.scrollY);
   };
 
+  // 네비게이션바에 마우스를 호버하면 해당 메뉴의 세브 메뉴가 보인다.
   const handleMenu = (menuName) => {
-    // 네비게이션바에 마우스를 호버하면 해당 메뉴의 세브 메뉴가 보인다.
     setHoveredMenu(menuName);
   }
 
+  // 클릭이벤트핸들러
+  const handleClick = () => {
+    setSubShow(false);
+  }
+
+  // 메인 넷바에서 스크롤이벤트가 발생하면 아래코드 실행됨
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
 
@@ -46,6 +55,7 @@ const NavigationBar = () => {
     }
   }, [lastScrollY]);
 
+  // 메인 넷바에서 호버이벤트발생하면 아래코드 실행됨
   useEffect(() => {
     window.addEventListener('mouseover', function (event) {
       handleHover(event);
@@ -75,8 +85,11 @@ const NavigationBar = () => {
               <ul className='product-list'>
                 {/* 상품전체페이지로 이동하게 됨 */}
                 {menuList.map((menu, index) => (
-                  <Link to={`/productAll/${menu}`} key={index}> 
-                    <li className='shoppingMenu' aria-label={`${menu}`} onMouseOver={() => { handleMenu(menu) }}>{menu}</li>
+                  <Link to={`/productAll/${menu}`} key={index}>
+                    <li className='shoppingMenu'
+                      aria-label={`${menu}`}
+                      onClick={() => { handleClick() }}
+                      onMouseOver={() => { handleMenu(menu) }}>{menu}</li>
                   </Link>
                 ))}
               </ul>

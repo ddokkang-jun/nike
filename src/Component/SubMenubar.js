@@ -9,7 +9,10 @@ const SubMenubar = ({ hoveredMenu }) => {
   const kids = { shoesList: ["신발", "라이프스타일", "농구", "조던"], clothList: ["의류", "탑 & 티셔츠", "후디 & 크루","팬츠"] };
   const sale = { mensSaleList: ["Mens Sale", "남성 신발", "남성 의류", "남성 전체보기"], womenSaleList: ["Womens Sale", "여성 신발", "여성 의류", "여성 전체보기"], kidsSaleList: ["Kids Sale", "kids 신발", "kids 의류", "kids 전체보기"] };
   const navigate = useNavigate();
-
+  
+  const clickHandler = (hoveredMenuName, menu) => {
+    navigate(`/productAll/${hoveredMenuName}/${menu}`); 
+  }
 
   useEffect(() => {
     if (hoveredMenu !== null) {
@@ -19,27 +22,21 @@ const SubMenubar = ({ hoveredMenu }) => {
 
   return (
     <div className='subMenubar'>
-      <div>
-        <ul className='subMenu-area'>
-          {(hoveredMenuName === "men" ? men.shoesList : hoveredMenuName === "women" ? women.shoesList : hoveredMenuName === "kids" ? kids.shoesList : hoveredMenuName === "sale" ? sale.mensSaleList : []).map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${hoveredMenuName}/${menu}`) }}>{menu}</li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <ul className='subMenu-area'>
-          {(hoveredMenuName === "men" ? men.clothList : hoveredMenuName === "women" ? women.clothList : hoveredMenuName === "kids" ? kids.clothList : hoveredMenuName === "sale" ? sale.womenSaleList : []).map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${hoveredMenuName}/${menu}`) }}>{menu}</li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <ul className='subMenu-area'>
-          {hoveredMenuName === "sale" ? sale.kidsSaleList.map((menu, index) => (
-            <li className='subMenu-list' key={index} onClick={() => { navigate(`/productAll/${hoveredMenuName}/${menu}`) }}>{menu}</li>
-          )) : ""}
-        </ul>
-      </div>
+      <ul className='subMenu-area'>
+        {(hoveredMenuName === "men" ? men.shoesList : hoveredMenuName === "women" ? women.shoesList : hoveredMenuName === "kids" ? kids.shoesList : hoveredMenuName === "sale" ? sale.mensSaleList : []).map((menu, index) => (
+          <li className='subMenu-list' key={index} onClick={() => { clickHandler(hoveredMenuName, menu) }}>{menu}</li>
+        ))}
+      </ul>
+      <ul className='subMenu-area'>
+        {(hoveredMenuName === "men" ? men.clothList : hoveredMenuName === "women" ? women.clothList : hoveredMenuName === "kids" ? kids.clothList : hoveredMenuName === "sale" ? sale.womenSaleList : []).map((menu, index) => (
+          <li className='subMenu-list' key={index} onClick={() => { clickHandler(hoveredMenuName, menu) }}>{menu}</li>
+        ))}
+      </ul>
+      <ul className='subMenu-area'>
+        {hoveredMenuName === "sale" ? sale.kidsSaleList.map((menu, index) => (
+          <li className='subMenu-list' key={index} onClick={() => { clickHandler(hoveredMenuName, menu) }}>{menu}</li>
+        )) : ""}
+      </ul>
     </div>
   )
 }

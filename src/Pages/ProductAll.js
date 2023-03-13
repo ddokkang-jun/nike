@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Row } from 'react-bootstrap';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import ProductAllNavbar from '../Component/ProductAllNavbar';
 import ProductAllPageProductCard from '../Component/ProductAllPageProductCard';
+import { setFade } from '../Store/productSlice';
 
 // 할 것 :
 // 상품전체페이지 서브 네비게이션바 만들기 (필터기능도 있음, 높이도 살짝 변함, 글자크기도 살짝변함)
@@ -25,6 +26,8 @@ const ProductAll = () => {
   const { gender, productType } = useParams();
   let [showData, setShowData] = useState([]);
   let [count, setCount] = useState(0);
+  let dispatch = useDispatch();
+  let fade = useSelector((state) => state.product.fadeValue);
 
   // Fisher-Yates shuffle 알고리즘 : 배열의 요소를 무작위로 섞을 수 있습니다.
   function shuffleArray(array) {
@@ -198,8 +201,22 @@ const ProductAll = () => {
     }
   }, [gender, productType, count]);
 
+
+  useEffect(() => {
+    window.scroll(0, 0); // 페이지가 새로 이동 되면 자동으로 최상단으로 이동해서 보여주게 함
+    setTimeout(() => {
+      dispatch(setFade("fadeEnd"));
+    }, 100);
+
+    return () => {
+      dispatch(setFade(""));
+    };
+    // eslint-disable-next-line
+  }, [showData]);
+
   return (
-    <div className='product-all-main-container'>
+    // "fadeStart " + fade
+    <div className={`product-all-main-container fadeStart` + fade}>
       <ProductAllNavbar count={count} />
       <div className='container'>
         <Row>

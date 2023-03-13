@@ -17,6 +17,7 @@ const initialState = {
   womenCloth: [],
   kidsShoes: [],
   kidsCloth: [],
+  mainNavbarMenuClicked: false,
 };
 
 export const productSlice = createSlice({
@@ -59,9 +60,12 @@ export const productSlice = createSlice({
     setKidsCloth: (state, action) => {
       state.kidsCloth = action.payload;
     },
+    setMainNavbarMenuClicked: (state, action) => {
+      state.mainNavbarMenuClicked = action.payload;
+    },
   },
 });
 
-export const { setProducts, setSuggestShoes, setdetailPageTabValue, setFade, setSelectProductSize, setSizeSelectWarning, setMenShoes,setMenCloth,setWomenShoes,setWomenCloth,setKidsShoes,setKidsCloth } =
+export const { setProducts, setSuggestShoes, setdetailPageTabValue, setFade, setSelectProductSize, setSizeSelectWarning, setMenShoes, setMenCloth, setWomenShoes, setWomenCloth, setKidsShoes, setKidsCloth, setMainNavbarMenuClicked } =
   productSlice.actions;
 export default productSlice.reducer;

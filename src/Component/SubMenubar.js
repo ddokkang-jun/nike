@@ -9,9 +9,11 @@ const SubMenubar = ({ hoveredMenu }) => {
   const kids = { shoesList: ["신발", "라이프스타일", "농구", "조던"], clothList: ["의류", "탑 & 티셔츠", "후디 & 크루","팬츠"] };
   const sale = { mensSaleList: ["Mens Sale", "남성 신발", "남성 의류", "남성 전체보기"], womenSaleList: ["Womens Sale", "여성 신발", "여성 의류", "여성 전체보기"], kidsSaleList: ["Kids Sale", "kids 신발", "kids 의류", "kids 전체보기"] };
   const navigate = useNavigate();
+  let [show, setShow] = useState(false);
   
   const clickHandler = (hoveredMenuName, menu) => {
-    navigate(`/productAll/${hoveredMenuName}/${menu}`); 
+    navigate(`/productAll/${hoveredMenuName}/${menu}`);
+    setShow(!show);
   }
 
   useEffect(() => {
@@ -21,7 +23,7 @@ const SubMenubar = ({ hoveredMenu }) => {
   }, [hoveredMenu, hoveredMenuName]);
 
   return (
-    <div className='subMenubar'>
+    <div className='subMenubar' style={{ visibility: show ? 'hidden' : 'visible'}}>
       <ul className='subMenu-area'>
         {(hoveredMenuName === "men" ? men.shoesList : hoveredMenuName === "women" ? women.shoesList : hoveredMenuName === "kids" ? kids.shoesList : hoveredMenuName === "sale" ? sale.mensSaleList : []).map((menu, index) => (
           <li className='subMenu-list' key={index} onClick={() => { clickHandler(hoveredMenuName, menu) }}>{menu}</li>

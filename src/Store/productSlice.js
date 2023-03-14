@@ -18,6 +18,8 @@ const initialState = {
   kidsShoes: [],
   kidsCloth: [],
   mainNavbarMenuClicked: false,
+  productSortWay: '',
+  productAllPageNavbarTitle:'',
 };
 
 export const productSlice = createSlice({
@@ -63,9 +65,15 @@ export const productSlice = createSlice({
     setMainNavbarMenuClicked: (state, action) => {
       state.mainNavbarMenuClicked = action.payload;
     },
+    setProductSortWay: (state, action) => {
+      state.productSortWay = action.payload;
+    },
+    setProductAllPageNavbarTitle: (state, action) => {
+      state.productAllPageNavbarTitle = action.payload;
+    }, 
   },
 });
 
-export const { setProducts, setSuggestShoes, setdetailPageTabValue, setFade, setSelectProductSize, setSizeSelectWarning, setMenShoes, setMenCloth, setWomenShoes, setWomenCloth, setKidsShoes, setKidsCloth, setMainNavbarMenuClicked } =
+export const { setProducts, setSuggestShoes, setdetailPageTabValue, setFade, setSelectProductSize, setSizeSelectWarning, setMenShoes, setMenCloth, setWomenShoes, setWomenCloth, setKidsShoes, setKidsCloth, setMainNavbarMenuClicked, setProductSortWay, setProductAllPageNavbarTitle } =
   productSlice.actions;
 export default productSlice.reducer;

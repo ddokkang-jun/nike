@@ -5,7 +5,8 @@ const ProductAllPageProductCard = ({ item }) => {
   return (
     <div className='card'>
       <img src={item?.imageAddress} alt="" />
-      <h1>{item.title}</h1>
+      <h6>{item.title}</h6>
+      <p>{item.price}</p>
     </div>
   )
 }

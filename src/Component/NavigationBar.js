@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import SubMenubar from './SubMenubar';
-import { useDispatch, useSelector } from 'react-redux';
-import { setMainNavbarMenuClicked } from '../Store/productSlice';
-
-library.add(faCoffee, faCartShopping);
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee,faCartShopping } from '@fortawesome/free-solid-svg-icons';
 
 const NavigationBar = () => {
-  let dispatch = useDispatch();
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [subShow, setSubShow] = useState(false);
@@ -42,8 +37,9 @@ const NavigationBar = () => {
   }
 
   // 클릭이벤트핸들러
-  const handleClick = () => {
+  const handleClick = (menuName) => {
     setSubShow(false);
+    console.log("menuName:", menuName);
   }
 
   // 메인 넷바에서 스크롤이벤트가 발생하면 아래코드 실행됨
@@ -88,7 +84,7 @@ const NavigationBar = () => {
                   <Link to={`/productAll/${menu}`} key={index}>
                     <li className='shoppingMenu'
                       aria-label={`${menu}`}
-                      onClick={() => { handleClick() }}
+                      onClick={() => { handleClick(menu) }}
                       onMouseOver={() => { handleMenu(menu) }}>{menu}</li>
                   </Link>
                 ))}
@@ -96,7 +92,8 @@ const NavigationBar = () => {
             </div>
             <div className='nav-right-area'>
               <Link to='/cart'>
-                <FontAwesomeIcon icon="fa-cart-shopping" />
+                {/* <FontAwesomeIcon icon={faCoffee} /> */}
+                <FontAwesomeIcon icon={faCartShopping} />
               </Link>
             </div>
           </div>

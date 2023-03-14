@@ -4,14 +4,16 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import ProductAllNavbar from '../Component/ProductAllNavbar';
 import ProductAllPageProductCard from '../Component/ProductAllPageProductCard';
-import { setFade } from '../Store/productSlice';
+import { setFade, setProductSortWay } from '../Store/productSlice';
 
 // 할 것 :
-// 상품전체페이지 서브 네비게이션바 만들기 (필터기능도 있음, 높이도 살짝 변함, 글자크기도 살짝변함)
+
+// 상품들의 데이터에서 id를 각각 다르게 주기.
+
+// 홈 화면에서 구매하기 버튼들을 누르면 어디로 이동할지 고민하기.
+
 // 장바구니 페이지 구현
 // 장바구니에 아이템이 추가되면 장바구니 아이콘에 뱃지 달아줘서 갯수 알려주기
-// 상품들의 데이터에서 id를 각각 다르게 주기.
-// 최상단의 메인메뉴가 클릭되면 서브메뉴를 안보이게 하기
 
 // 에러 수정할것 :
 // 메인홈 페이지에서 하단부분에 신발캐러셀부분을 클릭하고 디테일페이지로 이동하면 그페이지에서 새로고침 에러 수정하기
@@ -28,6 +30,7 @@ const ProductAll = () => {
   let [count, setCount] = useState(0);
   let dispatch = useDispatch();
   let fade = useSelector((state) => state.product.fadeValue);
+  let productSortWay = useSelector((state) => state.product.productSortWay);
 
   // Fisher-Yates shuffle 알고리즘 : 배열의 요소를 무작위로 섞을 수 있습니다.
   function shuffleArray(array) {
@@ -37,6 +40,29 @@ const ProductAll = () => {
     }
     return array;
   }
+
+  // 가격순대로 정렬하는 함수
+  const sortShowProductData = () => {
+    let copyShowData = [...showData];
+    if (productSortWay === 'high') {
+      copyShowData = copyShowData.sort((a, b) => b.price - a.price);
+      setShowData(copyShowData);
+    } else if (productSortWay === 'low') {
+      copyShowData = copyShowData.sort((a, b) => a.price - b.price);
+      setShowData(copyShowData);
+    };
+  };
+
+  // 가격드롭다운. 리셋기능도 있음.
+  useEffect(() => {
+    if (productSortWay !== '') {
+      sortShowProductData();
+    }
+
+    return () => {
+      dispatch(setProductSortWay(''));
+    }
+  }, [productSortWay]);
 
   useEffect(() => {
     if (gender === 'men') {
@@ -218,7 +244,7 @@ const ProductAll = () => {
     // "fadeStart " + fade
     <div className={`product-all-main-container fadeStart` + fade}>
       <ProductAllNavbar count={count} />
-      <div className='container'>
+      <div className='container product-all-container'>
         <Row>
           {showData.map((item, index) => (
             <Col md={4} sm={12} key={index}>
